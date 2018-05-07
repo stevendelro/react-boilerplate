@@ -1,0 +1,49 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "boilerplate code for react projects",
+  "main": "server/index.js",
+  "scripts": {
+    "build": "npm run sass && webpack",
+    "start": "npm run build && node server/index.js",
+    "sass": "sass src/css/style.scss dist/css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steven Del Rosario",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "express": "^4.16.3",
+    "file-loader": "^1.1.11",
+    "json-loader": "^0.5.7",
+    "morgan": "^1.9.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.2.0",
+    "serve-favicon": "^2.5.0",
+    "url-loader": "^1.0.1"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.15.0",
+    "css-loader": "^0.28.11",
+    "csx": "^8.5.0",
+    "image-webpack-loader": "^4.2.0",
+    "node-sass": "^4.9.0",
+    "resolve-url-loader": "^2.3.0",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.8.0",
+    "webpack-cli": "^2.1.3"
+  }
+}
